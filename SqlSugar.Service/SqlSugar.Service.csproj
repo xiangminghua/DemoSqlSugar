@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SqlSugar.IRepository\SqlSugar.IRepository.csproj" />
+    <ProjectReference Include="..\SqlSugar.IService\SqlSugar.IService.csproj" />
+  </ItemGroup>
+
+</Project>
